@@ -23,3 +23,8 @@ Gas crushes Electricity in transport: The gas network transported 809 TWh, nearl
 P2G is dead (for now): The optimized capacity for P2G was exactly 0 MW. At a cheap gas import price of 17.3 €/MWh, it makes zero economic sense to use electricity to produce synthetic methane.
 
 Gas generation dominates, Nuclear phases out: Because gas is so cheap and there is no CO2 penalty yet, the model built massive OCGT capacities (especially in France, ~81 GW) and completely phased out expensive base-load generation like nuclear.
+
+4. Differences between Jupyter Notebook & Python
+
+Minor discrepancies between the Jupyter Notebook and Python script may occur due to Jupyter's persistent kernel state, which can lead to redundant data warnings or pathing variations (e.g., os.getcwd() vs __file__).
+For maximum consistency and reproducibility, all results and visualizations presented in the final report are derived exclusively from the Python script outputs, ensuring a clean and standardized execution environment.
